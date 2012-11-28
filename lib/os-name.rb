@@ -19,4 +19,12 @@ module OS
       RbConfig::CONFIG['host_os']
     end
   end
+  
+  def self.osx?
+    name == 'OS X'
+  end
+  
+  def self.windows?
+    name == 'Windows'
+  end
 end
