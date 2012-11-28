@@ -23,6 +23,12 @@ module OS
   
     alias to_s name
     
+    def to_sym
+      name.downcase.delete(' ').to_sym
+    end
+    
+    alias intern to_sym
+    
     def linux?
       name == 'Linux'
     end
