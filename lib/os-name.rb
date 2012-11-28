@@ -22,13 +22,25 @@ module OS
     end
   
     alias to_s name
-  
+    
+    def linux?
+      name == 'Linux'
+    end
+    
     def osx?
       name == 'OS X'
     end
   
     def windows?
       name == 'Windows'
+    end
+    
+    def solaris?
+      name == 'Solaris'
+    end
+    
+    def bsd?
+      name == 'BSD'
     end
   end
 end
