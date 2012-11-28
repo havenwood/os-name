@@ -1,5 +1,3 @@
-module Os
-  module Name
-    VERSION = "0.0.1"
-  end
+module OS
+  VERSION = '0.0.1'
 end
