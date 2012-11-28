@@ -2,6 +2,15 @@
 
 A miniscule Ruby gem for checking host OS.
 
+## Usage
+
+```ruby
+require 'os-name'
+
+OS.name
+#=> "OS X"
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -15,12 +24,3 @@ And then execute:
 Or install it yourself as:
 
     $ gem install os-name
-
-## Usage
-
-```ruby
-require 'os-name'
-
-OS.name
-#=> "OS X"
-```
