@@ -9,6 +9,12 @@ require 'os-name'
 
 OS.name
 #=> "OS X"
+
+OS.linux?
+#=> false
+
+OS.osx?
+#=> true
 ```
 
 ## Installation
